@@ -1,0 +1,14 @@
+<% content_for :header do %>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Sell an Instrument</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"> <%= link_to "Back to Menu", root_path %>Link</a>
+      </li>
+    </ul>
+<% end %>
+
+<div class="pv4">
+  <%= render 'form', instrument: @instrument %>
+</div>
