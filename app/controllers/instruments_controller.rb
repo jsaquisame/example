@@ -55,7 +55,7 @@ class InstrumentsController < ApplicationController
   # DELETE /instruments/1
   # DELETE /instruments/1.json
   def destroy
-    @instrument.destroy
+    @instrument.destroy!
     respond_to do |format|
       format.html { redirect_to instruments_url, notice: 'Instrument was successfully destroyed.' }
       format.json { head :no_content }
