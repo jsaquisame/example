@@ -11,6 +11,7 @@ class CartsController < ApplicationController
   # GET /carts/1
   # GET /carts/1.json
   def show
+    @max_total = session[:max_total].to_i * 1000
   end
 
   # GET /carts/new
