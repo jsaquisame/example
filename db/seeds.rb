@@ -8,8 +8,8 @@
 
 user = User.new(
   id: 2,
-  name: "Andy Leverenz",
-  email: "andy@example.com",
+  name: "Jake",
+  email: "jsaquisame@example.com",
   password: "password",
   password_confirmation: "password"
 )
