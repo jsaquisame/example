@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
+  get 'charges/new'
+
+  get 'charges/show'
+
   resources :line_items
   resources :carts
   resources :instruments
+  resources :charges
   devise_for :users, controllers: {
     registrations: 'registrations'
   }
