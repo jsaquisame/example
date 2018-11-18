@@ -11,7 +11,7 @@ class ChargesController < ApplicationController
                                          source: params[:stripeToken])
   
       @charge = Stripe::Charge.create(customer:    @customer.id,
-                                      amount:      amount,
+                                      amount:      @amount,
                                       description: 'Rails Stripe customer',
                                       currency:    'cad')
     rescue Stripe::CardError => e

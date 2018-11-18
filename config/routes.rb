@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'charges/show'
 
+  get 'about/about' 
+
   resources :line_items
   resources :carts
   resources :instruments
