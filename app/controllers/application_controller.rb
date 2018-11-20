@@ -3,7 +3,6 @@ class ApplicationController < ActionController::Base
   include CurrentCart
   before_action :set_cart
 
-<<<<<<< HEAD
   private 
   
   def brand
@@ -11,7 +10,4 @@ class ApplicationController < ActionController::Base
   end
 
   helper_method :brand
-=======
-  
->>>>>>> cc853f35f6448214ac57f64362e0d87088d91af7
 end
