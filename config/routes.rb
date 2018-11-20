@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
+  get 'instruments/brand'
+
   get 'charges/new'
 
   get 'charges/show'
 
   get 'about/about' 
+
+  get 'instrument/brand'
 
   resources :line_items
   resources :carts

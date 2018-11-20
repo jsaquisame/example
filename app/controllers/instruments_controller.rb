@@ -12,6 +12,12 @@ class InstrumentsController < ApplicationController
     end
   end
 
+  def brand
+    @brand = Instrument.all
+  end
+
+  
+
   # GET /instruments/1
   # GET /instruments/1.json
   def show
