@@ -10,10 +10,13 @@ class InstrumentsController < ApplicationController
     else
       Instrument.all.order("created_at desc")
     end
+<<<<<<< HEAD
   end
 
   def brand
     @brand = Instrument.all
+=======
+>>>>>>> cc853f35f6448214ac57f64362e0d87088d91af7
   end
 
   

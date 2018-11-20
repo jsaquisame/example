@@ -34,7 +34,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 
+<<<<<<< HEAD
 gem 'rubocop'
+=======
+gem 'activeadmin' #admin dashboard
+>>>>>>> cc853f35f6448214ac57f64362e0d87088d91af7
 gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.4'
