@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This README would normally document whatever steps are necessary to get the application up and running.
 
 Things you may want to cover:
@@ -19,3 +20,6 @@ Services (job queues, cache servers, search engines, etc.)
 Deployment instructions
 
 ...
+=======
+
+>>>>>>> 50762787b568368652cd2abe4f72f5ceb82d1876

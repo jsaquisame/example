@@ -12,12 +12,7 @@
 
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-<<<<<<< HEAD
           data-description="A month's subscription"
           data-amount="<%= (session[:max_total]) * 100 %>"
-=======
-          data-description="Thank you for choosing us"
-          data-amount="<%= (session[:max_total].to_i) * 100%>"
->>>>>>> cc853f35f6448214ac57f64362e0d87088d91af7
           data-locale="auto"></script>
 <% end %>
