@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'instrument/brand'
 
+  get 'store/index'
+
   resources :line_items
   resources :carts
   resources :instruments
